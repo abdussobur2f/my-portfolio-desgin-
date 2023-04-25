@@ -1,0 +1,155 @@
+  :root {
+  --main-color: #ee5253  ;
+  --btn-color:#74b9ff;
+  --hover-color:#ee5253;
+  --card-color:#222f3e;
+}
+
+.about {
+  height: 100vh;
+  
+}
+.about .heading {
+  font-size: 5rem !important;
+}
+.about .about_details  {
+  margin-bottom: 1rem;
+}
+.about .about_details  li {
+  font-size: 1.7rem;
+   
+  /* letter-spacing: 1px; */
+  margin: 1rem 0;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-top: 1.7rem;
+}
+.about .about_details span {
+  font-weight: 400;
+  margin-right: 0.5rem;
+  position: relative;
+  font-size: 1.7rem;
+  color: var(--main-color) ;
+  /* background: aliceblue; */
+  border-bottom: 2px solid #74b9ff ;
+}
+ 
+.about .u {
+  display: none;
+}
+.about .personal {
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem 0;
+}
+.about .btn-cont {
+  margin-top: 1.5rem;
+  
+ border-radius: 0;
+  font-size: 1.5rem;
+  border: none;
+
+  border: 1px solid   #ff7675;
+ 
+  transition: .5s ease-in-out;
+  background-color: transparent;
+  color: #fdfdfd;
+}
+.about .btn-cont:hover {
+ 
+    background-color: var(--hover-color);
+   
+
+  
+}
+
+.headin h1 {
+  font-size: 4rem;
+  
+  /* color: #000000; */
+  
+ 
+}
+
+.education,
+.experience {
+  margin: 20px 0 50px;
+  list-style: none;
+  position: relative;
+  padding: 0 0 0 50px;
+  width: 100%;
+}
+.education li, .experience li {
+  position: relative;
+ 
+  padding: 20px;
+  transition: all 0.5s ease-in-out;
+  background-color: #222f3e;
+  min-height: 200px;
+  color: #fff;
+  box-shadow: -1px 0px 9px -3px black;
+}
+
+.education li:not(:first-child),
+.experience li:not(:first-child) {
+  margin-top: 2rem ;
+}
+.education, .experience {
+  margin: 20px 0 50px;
+  list-style: none;
+  position: relative;
+  padding: 0px 0 0 0px;
+  width: 100%;
+}
+
+ 
+ 
+.education .content h4, .experience .content h4 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  margin: 1rem 0;
+  text-transform: uppercase;
+}
+
+.education .content h5, .experience .content h5 {
+  /* margin: 1rem 0; */
+  font-size: 1.7rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ee5253;
+  /* line-height: 3rem; */
+}
+.experience .content h4{
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+ 
+  color: #fff ;
+  text-transform: uppercase;
+}
+.education .content h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #fff;
+ 
+  text-transform: uppercase;
+}
+.education .content p.info,
+.experience .content p.info {
+  font-size: 1.7rem;
+  font-weight: 200;
+  
+   text-transform: capitalize;
+ 
+  opacity: 0.8;
+}
+
+ 
+
+ 
+ 

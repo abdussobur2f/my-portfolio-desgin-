@@ -1,0 +1,158 @@
+ 
+.page-content{
+    height: 100vh;
+
+}
+
+.content_sli{
+    background-color: #ee5253 ;
+    width: 100% !important;
+   }
+   
+   
+   
+   .progress {
+       background: rgba(10, 231, 58, 0.1);
+       justify-content: flex-start;
+        
+       align-items: center;
+       position: relative;
+    
+       display: flex;
+       height: 20px;
+       
+     }
+     
+     .progress-value {
+       animation: load 3s normal forwards;
+       
+ 
+       background: #ee5253 ;
+       height:20px;
+      
+     }
+     
+     @keyframes load {
+       0% { width: 0; }
+       100% { width: 95%; }
+     }
+     
+     .progress-css {
+       animation: css 3s normal forwards;
+       
+ 
+       background: #ee5253;
+       height: 20px;
+       width: 0;
+     }
+     
+     @keyframes css {
+       0% { width: 0; }
+       100% { width: 90%; }
+     }
+     .progress-js {
+       animation: js 3s normal forwards;
+       
+    
+       background: #ee5253;
+       height: 20px;
+       width: 0;
+     }
+     
+     @keyframes js {
+       0% { width: 0; }
+       100% { width: 70%; }
+     }
+     .progress-bot {
+       animation: bot 3s normal forwards;
+       
+ 
+       background: #ee5253;
+       height: 20px;
+       width: 0;
+     }
+     
+     @keyframes bot {
+       0% { width: 0; }
+       100% { width: 95%; }
+     }
+     .progress-tai {
+       animation: tai 3s normal forwards;
+       
+  
+       background: #ee5253;
+       height: 20px;
+       width: 0;
+     }
+     
+     @keyframes tai {
+       0% { width: 0; }
+       100% { width: 75%; }
+     }
+     .progress-jq {
+       animation: jq 3s normal forwards;
+       
+    
+       background: #ee5253;
+       height:20px;
+       width: 0;
+     }
+     
+     @keyframes jq {
+       0% { width: 0; }
+       100% { width: 80%; }
+     }
+   
+   
+     .progress-react {
+       animation: react 3s normal forwards;
+       
+    
+       background:#ee5253 ;
+       height:20px;
+       width: 0;
+     }
+     
+     @keyframes react {
+       0% { width: 0; }
+       100% { width: 90%; }
+     }
+   
+   
+     .progress-next {
+       animation: next 3s normal forwards;
+       
+ 
+       background: #ee5253;
+       height: 20px;
+       width: 0;
+     }
+     
+     @keyframes next {
+       0% { width: 0; }
+       100% { width: 80%; }
+     }
+   
+     .about_text ul li {
+      font-size: 1.7rem;
+       
+      line-height: 2.5rem;
+      text-transform: capitalize;
+      
+  }
+     .fixed{
+       position: fixed;
+       background-color: #ee5253;
+   }
+   .scroll_nv{
+     z-index: 1000;
+     background-color: #ee5253;
+     top: 0;
+   }
+
+   .about_details div{
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    
+    text-transform: capitalize;
+   }

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea:wght@700&family=Inter:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@200;400;700&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caladea:wght@700&family=Inter:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;700&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caladea:wght@700&family=Inter:wght@500&family=Montserrat&family=Open+Sans:wght@300&family=Poppins:wght@200;300;400;700&family=Roboto:wght@300&display=swap");
+:root {
+  --main-color: #ee5253 ;
+  --btn-color:#74b9ff;
+  --hover-color:#df6363;
+  --card-color:#222f3e;
+}
+
+.container {
+  padding: 2rem 0;
+}
+.container input {
+  padding: 1rem;
+  width: 100%;
+  font-size: 1.7rem;
+  left: 0;
+  box-shadow: 1px 0px 10px -3px #ffffff;
+}
+.container form textarea {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+}
+.container form button {
+  padding: 3.5rem 10rem;
+  margin-top: 1rem;
+  padding: 0rem 1rem;
+  border: 1px solid #ee5253 !important;
+  font-size: 1.7rem;
+  border: none;
+  color: #fff;
+  background: transparent;
+  transition: 0.7s ease-in-out;
+}
+.container form button:hover {
+  background-color: var(--hover-color);
+}
+.container label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+.container .contact_text p {
+  font-size: 1.7rem;
+}
+.container .contact_text ul li, .container .contact_text span {
+  text-transform: capitalize;
+  margin-right: 0.5rem;
+  font-size: 1.7rem;
+  font-family: "'Poppins', sans-serif;", sans-serif;
+}/*# sourceMappingURL=contact.css.map */
