@@ -11,39 +11,37 @@
 dl,
 ol,
 ul {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  margin-left: -2rem;
+  margin: 0;
+  padding: 0;
 }
 
 .page-content .card {
   margin: 1rem 0;
-  background-color: #222f3e;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: transparent !important;
 }
 .page-content .card:hover {
-  background-color: #4d2f2f;
-  transition: 0.6s;
+  background-color: #222f3e !important;
 }
-.page-content .card .card-title {
+.page-content .card-title {
   margin-bottom: 0.75rem;
   font-size: 4rem;
   text-align: center;
 }
-.page-content .card .card-body {
+.page-content .card-body {
   padding: 1rem 0;
   font-size: 1.7rem;
   text-align: center;
   font-family: "'Poppins', sans-serif;", sans-serif;
 }
-.page-content .card .card-body button {
+.page-content .card-body button {
   text-decoration: none;
   color: rgb(255, 253, 253);
-  background: transparent;
 }
-.page-content .card .card-body button:hover {
+.page-content .card-body button:hover {
   background-color: var(--hover-color);
 }
-.page-content .card a {
+.page-content a {
   color: tomato;
   padding: 0.5rem 1rem;
   /* background: antiquewhite; */
@@ -68,6 +66,7 @@ ul {
 }
 .about button {
   margin-top: 1.5rem;
+  margin-bottom: 2rem;
   padding: 0.5rem 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
@@ -85,4 +84,9 @@ ul {
   .about button .services {
     width: 100%;
   }
+}
+
+.red-color {
+  background-color: var(--main-color);
+  color: #fff;
 }/*# sourceMappingURL=services.css.map */

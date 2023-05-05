@@ -136,9 +136,9 @@
   }
 }
 .about_text ul li {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   line-height: 2.5rem;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .fixed {

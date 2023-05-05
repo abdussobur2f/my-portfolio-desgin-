@@ -5,7 +5,7 @@ $(document).ready(function(){
  
 
 $("#close-sidebar").click(function() {
-  $(".page-wrapper").removeClass("toggled");
+  $(".page-wrapper").removeClass("toggled" ,10000);
 });
 $("#show-sidebar").click(function() {
   $(".page-wrapper").addClass("toggled");
@@ -14,12 +14,9 @@ $("#show-sidebar").click(function() {
 
    
 
-$('.open').click(function(){
-    $("#sidebar").toggle();
-    
-})
 
-
+   
+  
 
 var typed = new Typed('#s', {
     strings: ["I'm Front End web developer." , "Convert figma to react js" , "Convert Figma to next js","Convert psd to react or next.js","Convert to html css"], 

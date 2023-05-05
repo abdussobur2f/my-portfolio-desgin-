@@ -14,6 +14,7 @@
   margin: 1rem auto;
   box-shadow: 0px 1px 10px -2px #504b4b;
   text-transform: uppercase;
+  overflow-x: hidden;
   padding: 0.2rem 0;
 }
 .page-content .subtitle ul {
@@ -22,6 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
 }
 .page-content .subtitle ul li {
   margin: 0 1.5rem;
@@ -33,7 +35,6 @@
   padding: 0.5rem 2rem;
 }
 .page-content .active {
-  padding: 0rem 2rem;
   box-shadow: 0px 1px 10px -2px #504b4b;
   cursor: pointer;
   background-color: var(--main-color);
@@ -102,13 +103,18 @@
   .page-content .subtitle .filter {
     margin: 1rem auto;
     border-radius: 1rem;
-    box-shadow: 0px 1px 10px -2px #504b4b;
     text-transform: uppercase;
     text-align: left;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 90%;
+    width: 89%;
     margin: auto;
+    margin: 2rem auto;
+  }
+  .page-content .subtitle ul li {
+    font-size: 2rem;
+    cursor: pointer;
+    width: 100%;
   }
 }/*# sourceMappingURL=portfolio.css.map */

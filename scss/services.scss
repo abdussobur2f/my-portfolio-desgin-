@@ -20,20 +20,21 @@ sans-serif;
 dl,
 ol,
 ul {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  margin-left: -2rem;
+ margin: 0;
+ padding: 0;
 }
 
 .page-content {
   .card {
     margin: 1rem 0;
-    background-color: #222f3e;
-
-    &:hover{
-      background-color: #4d2f2f;
-      transition: .6s;
-    }
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+    background-color: transparent !important;
+  
+&:hover{
+  background-color: #222f3e !important;
+}
+   
+ }   
     .card-title {
       margin-bottom: .75rem;
       font-size: 4rem;
@@ -48,7 +49,7 @@ ul {
       button {
         text-decoration: none;
         color: rgb(255, 253, 253);
-        background: transparent;
+       
 
         &:hover {
           background-color: var(--hover-color);
@@ -68,7 +69,7 @@ ul {
     }
   }
 
-}
+ 
 
 .dark {
   background-color: black;
@@ -92,6 +93,7 @@ ul {
 
 .about button {
   margin-top: 1.5rem;
+  margin-bottom: 2rem;
   padding: 0.5rem 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
@@ -100,7 +102,8 @@ ul {
   background-size: 200% 100%;
   transition: 0.5s ease-in-out;
   background-color: transparent;
-  color: #fff;
+ color: #fff;
+ 
  
 
   &:hover {
@@ -115,4 +118,8 @@ ul {
 
 
   }
+}
+.red-color{
+  background-color: var(--main-color);
+  color: #fff;
 }
